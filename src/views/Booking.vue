@@ -1,22 +1,24 @@
 <template>
-  <ion-page>
+  <ion-page >
     <ion-header>
-      <ion-toolbar color="success">
-        <ion-title style="font-size:20px; text-transform:uppercase">FOOD BOOKING</ion-title>
-      </ion-toolbar>
+      <navbar />
     </ion-header>
     <ion-content>
-      <formBooking/>
+        <h1 class="font_title">Réservation</h1>
+        <formBooking/>
     </ion-content>
   </ion-page>
 </template>
 
 <script>
-import { IonPage, IonHeader, IonToolbar, IonTitle, IonContent } from '@ionic/vue';
+
+import navbar from '@/components/navbar.vue';
 import formBooking from '@/components/formBooking.vue';
 
-export default  {
-  name: 'Booking',
-  components: { IonHeader, IonToolbar, IonTitle, IonContent, IonPage, formBooking }
+export default {
+name:'blog',
+components:{
+    navbar,formBooking
+}
 }
 </script>
