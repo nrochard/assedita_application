@@ -12,10 +12,10 @@
         <a class="nav-link" href="/carte">La carte</a>
         <a class="nav-link " href="/equipe" tabindex="-1" aria-disabled="true">L'équipe</a>
         <a class="nav-link " href="/contact" tabindex="-1" aria-disabled="true">Contact & Accès</a>
-        <a class="nav-link " href="/reservation" tabindex="-1" aria-disabled="true">Réservation</a>
+        <!-- <a class="nav-link " href="/reservation" tabindex="-1" aria-disabled="true">Réservation</a> -->
         <a class="nav-link " href="/abonnements" tabindex="-1" aria-disabled="true">Les abonnements</a>
          <a class="nav-link " href="/blog" tabindex="-1" aria-disabled="true">Idées & Conseils</a>
-        <a class="nav-link " href="/compte" tabindex="-1" aria-disabled="true">Mon compte</a>
+        <!-- <a class="nav-link " href="/compte" tabindex="-1" aria-disabled="true">Mon compte</a> -->
       </div>
     </div>
   </div>

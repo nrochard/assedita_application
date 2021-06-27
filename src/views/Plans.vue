@@ -12,9 +12,10 @@
             </ion-card-header>
 
             <ion-card-content>
-                <p>Vexillologist pitchfork</p>
-                <p>Vexillologist pitchfork</p>
-                <p>Vexillologist pitchfork</p>
+                <p>- 10% sur toutes vos additions</p>
+                <br/>
+                <p>Le café offert à la fin du repas</p><br/>
+                <p>Possiblité de choisir sa table au moment de la réservation</p>
             </ion-card-content>
             <ion-button color="light" expand="block" fill="outline" style="margin:0 30px 10px 30px">Souscrire</ion-button>
         </ion-card>
@@ -25,9 +26,10 @@
             </ion-card-header>
 
             <ion-card-content>
-                <p>Vexillologist pitchfork</p>
-                <p>Vexillologist pitchfork</p>
-                <p>Vexillologist pitchfork</p>
+                <p>- 25% sur toutes vos additions</p>
+                <p>Un pichet de vin offert durant le repas</p><br/>
+                <p> 10% sur la carte des boissons</p><br/>
+                <p>Possiblité de choisir sa table au moment de la réservation</p>
             </ion-card-content>
             <ion-button color="light" expand="block" fill="outline" style="margin:0 30px 10px 30px">Souscrire</ion-button>
         </ion-card>
@@ -38,9 +40,12 @@
             </ion-card-header>
 
             <ion-card-content>
-                <p>Vexillologist pitchfork</p>
-                <p>Vexillologist pitchfork</p>
-                <p>Vexillologist pitchfork</p>
+                <p>- 35% sur toutes vos additions</p>
+                <p>Bouteille de vin offerte ainsi que le café</p><br/>
+                <p>Possiblité de choisir sa table au moment de la réservation</p><br/>
+                  <p>1 repas offert dans le mois</p><br/>
+                    <p>- 15% sur la carte des boissons</p><br/>
+                    <p>Possibilité de carafer le vin sur demande avant votre arrivée</p>
             </ion-card-content>
             <ion-button color="light" expand="block" fill="outline" style="margin:0 30px 10px 30px">Souscrire</ion-button>
         </ion-card>
@@ -69,6 +74,7 @@ components:{
     }
         .plan3{
     background-color: #954017;
+    margin-bottom: 100px;
     }
     .plan1 p, .plan2 p, .plan3 p{
         color: white;

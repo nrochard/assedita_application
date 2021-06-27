@@ -34,6 +34,10 @@ const routes = [
     path: '/equipe',
     component: () => import('@/views/Team.vue')
   },
+  {
+    path: '/carte',
+    component: () => import('@/views/Card.vue')
+  },
   // {
   //   path: '/food/',
   //   children: [

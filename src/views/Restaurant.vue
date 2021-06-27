@@ -35,7 +35,7 @@
 Qu’elle est belle cette sensation : goûter une saveur inconnue. Ce dont il s’agissait, on ne le sait pas encore… mais qu’est-ce que c’était bon !
             </ion-card-content>
         </ion-card>
-        <ion-card>
+        <ion-card style="margin-bottom:100px">
             <ion-img style="min-height: 1px; width:30%; margin: 0 auto; padding: 40px 20px 20px 20px" :src="'./assets/picto/vine.svg'" class="img_header"></ion-img>
             <ion-card-header>
                 <ion-card-title class="font_title" style="text-align:center">Convivialité </ion-card-title>

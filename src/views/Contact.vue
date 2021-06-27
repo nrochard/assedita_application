@@ -1,5 +1,5 @@
 <template>
-  <ion-page >
+  <ion-page>
     <ion-header>
       <navbar />
     </ion-header>
@@ -19,7 +19,7 @@
 
             </ion-card-content>
         </ion-card>
-        <ion-card>
+        <ion-card id="card_bottom">
             <ion-card-header>
                 <ion-card-subtitle>Accès</ion-card-subtitle>
                <ion-card-title class="font_title">49 Boulevard de Clichy 75009 PARIS</ion-card-title>
@@ -54,3 +54,9 @@ components:{
   }
 }
 </script>
+
+<style scoped>
+#card_bottom{
+  margin-bottom: 100px;
+}
+</style>

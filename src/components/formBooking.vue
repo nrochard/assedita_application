@@ -73,7 +73,7 @@
             <ion-button style="margin: 20px 0" @click.prevent="bookSlot" color="dark">Réserver</ion-button>
             </ion-card>
         </form>  
-        <ion-button id="cancel" disabled="true" color="warning" @click.prevent="cancelBooking">Annuler ma réservation</ion-button>
+        <!-- <ion-button id="cancel" disabled="true" color="warning" @click.prevent="cancelBooking">Annuler ma réservation</ion-button> -->
   </div>
 </template>
 
@@ -216,5 +216,8 @@ export default {
     text-align: left;
 }
 
+#cancel{
+    margin-bottom: 100px;
+}
 
 </style>
